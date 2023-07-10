@@ -89,7 +89,7 @@
 
         section#semback1{
             background-color: gray;            
-            background-image: url(../imagens/background001.jpg);
+            background-image: url(imagens/background001.jpg);
             background-position:right center;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -101,7 +101,7 @@
 
         section#semback2{
             background-color: gray;            
-            background-image: url(../imagens/background002.jpg);
+            background-image: url(imagens/background002.jpg);
             background-position:center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
