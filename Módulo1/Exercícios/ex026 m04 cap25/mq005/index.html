@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> <!-- Link do Google -->
+
 
     <link rel="stylesheet" href="estilos/style.css" media="all">
 
     <link rel="stylesheet" href="estilos/mqueri.css">
 
 </head>
-<body onresize="MudouTamanho()">
+<body onresize="MudouTamanho()"> <!-- onrisize é javascript oara quando mudar tela Mudou o tamanho é a função -->
     <header> 
     <h1>Fazendo um Menu Haburguinho Responsivo</h1>
 
-    <span id="burger" class="material-symbols-outlined" onclick="ClickMenu()">
+    <span id="burger" class="material-symbols-outlined" onclick="ClickMenu()"> <!-- onclick é javascript oara quando clicar e Click Menu é a função -->
         menu
         </span>
 
@@ -47,7 +49,9 @@
     
 </main>
 
-<script>
+
+ <!-- Funções Java Script -->
+<script> 
     function ClickMenu (){
         if (ItensMenu.style.display == "block"){
             ItensMenu.style.display= "none"
