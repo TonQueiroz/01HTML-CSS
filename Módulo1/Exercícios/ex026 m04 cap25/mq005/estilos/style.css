@@ -41,8 +41,6 @@ span#burger:hover{
   background-color: azure;
   color: black;
 
-
-
 }
  
 
@@ -52,13 +50,15 @@ nav{
   display: none;
 }
 
-nav > ul {
+
+
+nav  ul {
 
   list-style-type: none;
   
 }
 
-nav > ul > li > a{
+nav a{
   display: block;
   padding: 10px;
   text-decoration: none;
